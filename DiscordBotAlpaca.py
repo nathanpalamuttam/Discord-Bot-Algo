@@ -78,7 +78,7 @@ except FileNotFoundError:
 def save_trades():
     with open(TRADES_FILE, 'w') as f:
         json.dump(currTrades, f)
-
+#
 def get_option(symb, limitPrice, strike, exp, type, buy = True):
     limitPrice = round(limitPrice, 2)
     if not buy:

@@ -12,3 +12,4 @@ def write_signal_to_pipe(data):
         print(f"📤 Wrote signal to pipe: {data}")
     except Exception as e:
         print(f"❌ Error writing to pipe: {e}")
+#
